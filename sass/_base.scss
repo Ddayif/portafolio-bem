@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.color-nav{
+	background-color: #f04949;
+	height: auto;
+}
+
+.mi-ul{
+	padding-top: 20px;
+	list-style: none;
+}
+
+.mi-li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+	&:hover{
+		background-color: $hover;
+	}
+}
+
+.contenedor-logo{
+	width: 50%;
+}
+
+.logo{
+	width: 9%;
+    padding-top: 20px;
+    margin-left: 400px;
+}
+
+.segundo-contenedor{
+	background-color: $hover;
+	height: 100vh;
+}
