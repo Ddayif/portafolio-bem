@@ -1,0 +1,35 @@
+/*nav*/
+.a-menu{
+	background-color: #f04949;
+	height: auto;
+}
+
+.a-menu__contenedor{
+	width: 35%;
+}
+
+.a-menu__contenedor__logo{
+	width: 12%;
+    padding-top: 20px;
+    margin-left: 295px;
+}
+
+.a-ul{
+	padding-top: 2px;
+	list-style: none;
+}
+
+
+.a-ul__mi-li{
+    display: inline-block;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+	&:hover{
+		background-color: $hover;
+	}
+}
