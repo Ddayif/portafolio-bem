@@ -1,20 +1,21 @@
-@import url("..css/aurora-grid/aurora-grid.min.css");
+@import url(aurora-grid/aurora-grid.css);
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
 
 .color-nav {
   background-color: #f04949;
   height: auto; }
 
 .mi-ul {
-  padding-top: 20px;
+  padding-top: 2px;
   list-style: none; }
 
 .mi-li {
   display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 10px;
@@ -24,15 +25,52 @@
     background-color: #203748; }
 
 .contenedor-logo {
-  width: 50%; }
+  width: 35%; }
 
 .logo {
-  width: 9%;
+  width: 12%;
   padding-top: 20px;
-  margin-left: 400px; }
+  margin-left: 295px; }
 
 .segundo-contenedor {
-  background-color: #203748;
-  height: 100vh; }
+  background-color: #203748; }
+
+.circulo {
+  height: 265px;
+  margin-left: 50%;
+  margin-top: 40px; }
+
+.contenedor-texto {
+  margin-top: 7%;
+  color: whitesmoke; }
+  .contenedor-texto h1 {
+    color: #33c07f; }
+  .contenedor-texto h3 {
+    margin: 3% 0; }
+  .contenedor-texto p {
+    margin-top: 1%; }
+
+.contenedor-boton {
+  width: 50%; }
+
+.contenedor-boton {
+  margin-top: 6%; }
+
+.btn-mio {
+  background-color: #33c07f;
+  padding: 15px 80px;
+  border-radius: 50px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 700; }
+
+.contenedor-iconos {
+  margin-left: 30%;
+  margin-top: 3%;
+  font-size: 70px;
+  padding-bottom: 100px; }
+
+.fa {
+  padding-right: 5%; }
 
 /*# sourceMappingURL=main.css.map */
